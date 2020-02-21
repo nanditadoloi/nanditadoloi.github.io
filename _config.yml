@@ -1,8 +1,8 @@
 # site settings
-title: Nandita Doloi | IIT Delhi
-subtitle: by HTML5 UP
+title: Nandita Doloi 
+subtitle:
 email: nanditad48@gmail.com
-description: Personal webpage of Nandita Doloi. Contains articles related to Data Analytics and Machine Learning.
+description: Personal webpage.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 # author:
