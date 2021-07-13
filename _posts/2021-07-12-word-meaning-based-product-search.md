@@ -38,8 +38,8 @@ $( "#searchForm" ).submit(function( event ) {
           contentType: "text/json; charset=utf-8",
           dataType: "text",
           success: function (msg) {
-          var jsonUpdatedData = msg;
-          if(jsonUpdatedData["done"]=="True"){alert(jsonUpdatedData["data"]);}
+          var jsonUpdatedData = JSON.parse(msg);
+          if(jsonUpdatedData.done=="True"){alert(jsonUpdatedData.data);}
           }
       });
 });
