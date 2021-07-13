@@ -31,7 +31,7 @@ $( "#searchForm" ).submit(function( event ) {
   $.ajax({
           type: "POST",
           url: url,
-          data: {search:term},
+          data: JSON.stringify({search:term}),
           contentType: "text/json; charset=utf-8",
           dataType: "text",
           success: function (msg) {
