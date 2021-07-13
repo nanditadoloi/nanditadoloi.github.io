@@ -10,7 +10,7 @@ title:  "Word Meaning Based Product Search"
 I hope you like it!
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-<form action="http://54.87.69.58:5000/service" id="searchForm">
+<form action="https://54.87.69.58:5000/service" id="searchForm">
   <input type="text" name="s" placeholder="Search...">
   <input type="submit" value="Search">
 </form>
