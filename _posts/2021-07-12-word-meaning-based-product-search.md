@@ -18,7 +18,7 @@ I hope you like it!
 
 <hr><br><br>
 <h4>The two closest keywords are:</h4>
-<strong><span id="result1">vintage</span></strong>, and <strong><span id="result2">plain</span></strong>
+<strong><span id="result1">____________</span></strong>, and <strong><span id="result2">____________</span></strong>
  
 <script>
 // Attach a submit handler to the form
