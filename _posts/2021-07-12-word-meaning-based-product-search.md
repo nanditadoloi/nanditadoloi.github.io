@@ -15,7 +15,10 @@ I hope you like it!
   <input type="submit" value="Search">
 </form>
 <!-- the result of the search will be rendered inside this div -->
-<div id="result"></div>
+
+<hr></br></br>
+<h4>The two closest keywords are:</h4>
+<strong><span id="result1">vintage</span></strong>, and <strong><span id="result2">plain</span></strong>
  
 <script>
 // Attach a submit handler to the form
