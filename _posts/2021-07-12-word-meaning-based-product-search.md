@@ -39,7 +39,7 @@ $( "#searchForm" ).submit(function( event ) {
           dataType: "text",
           success: function (msg) {
           var jsonUpdatedData = msg;
-          alert(jsonUpdatedData);
+          if(jsonUpdatedData["done"]=="True"){alert(jsonUpdatedData["data"]);}
           }
       });
 });
