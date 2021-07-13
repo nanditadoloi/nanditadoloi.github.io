@@ -39,7 +39,11 @@ $( "#searchForm" ).submit(function( event ) {
           dataType: "text",
           success: function (msg) {
           var jsonUpdatedData = JSON.parse(msg);
-          if(jsonUpdatedData.done=="True"){alert(jsonUpdatedData.data);}
+          if(jsonUpdatedData.done=="True"){
+              alert(jsonUpdatedData.data);
+              $("#result1").text(jsonUpdatedData.data[0]);
+              $("#result2").text(jsonUpdatedData.data[1]);
+          }
           }
       });
 });
