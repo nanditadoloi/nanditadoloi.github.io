@@ -38,7 +38,9 @@ $( "#searchForm" ).submit(function( event ) {
           contentType: "text/json; charset=utf-8",
           dataType: "text",
           success: function (msg) {
-          var jsonUpdatedData = msg; alert(msg); alert(JSON.Parse(msg););}
+          var jsonUpdatedData = msg;
+          alert(jsonUpdatedData);
+          }
       });
 });
 </script>
