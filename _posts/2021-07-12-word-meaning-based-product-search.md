@@ -11,7 +11,7 @@ title:  "(Demo) Word Meaning Based Product Search"
 <p>I use 'text8' model to find similar meaning. This model was not used for this task but was developed to understand the meanings in English words. Therefore the meanings might not be accurate in this context. With custom e-commerce dataset, we can train a more accurate model based on the context which would work far better.</p>
 
 # Demo
-Enter a one-word search term into the search box and submit "Search". The most similar keywords would be displayed over the blanks below.
+Enter a one-word search term into the search box and submit "Search". The most similar keywords would be displayed over the blanks below. Suggestion: Try the search term: "boxed"
 
 <form action="https://nandita.ddns.net:5000/service" id="searchForm">
   <input type="text" name="s" placeholder="Search...">
