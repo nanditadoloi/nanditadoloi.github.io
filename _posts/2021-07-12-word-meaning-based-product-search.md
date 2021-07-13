@@ -10,7 +10,7 @@ title:  "Word Meaning Based Product Search"
 I hope you like it!
 
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-<form action="/" id="searchForm">
+<form action="http://54.87.69.58:5000/service" id="searchForm">
   <input type="text" name="s" placeholder="Search...">
   <input type="submit" value="Search">
 </form>
@@ -30,7 +30,7 @@ $( "#searchForm" ).submit(function( event ) {
     url = $form.attr( "action" );
  
   // Send the data using post
-  var posting = $.post( url, { s: term } );
+  var posting = $.post( url, { search: term } );
  
   // Put the results in a div
   posting.done(function( data ) {
