@@ -16,7 +16,7 @@ I hope you like it!
 </form>
 <!-- the result of the search will be rendered inside this div -->
 
-<hr></br></br>
+<hr><br><br>
 <h4>The two closest keywords are:</h4>
 <strong><span id="result1">vintage</span></strong>, and <strong><span id="result2">plain</span></strong>
  
@@ -38,7 +38,7 @@ $( "#searchForm" ).submit(function( event ) {
           contentType: "text/json; charset=utf-8",
           dataType: "text",
           success: function (msg) {
-          var jsonUpdatedData = msg;}
+          var jsonUpdatedData = msg; alert(msg); alert(JSON.Parse(msg););}
       });
 });
 </script>
