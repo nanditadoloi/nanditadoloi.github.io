@@ -2,6 +2,7 @@
 layout: page
 title: Archive
 description: Archives of my blog grouped by date
+nav-menu: true
 permalink: /archive/
 ---
 <section class="archive-post-list">
